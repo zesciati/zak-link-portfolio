@@ -1,0 +1,28 @@
+{
+  "HTML_CSS": [
+    {
+      "id": "1",
+      "title": "Web Google UI",
+      "desc": "Layout browser google",
+      "link": "https://webgoogleui.zakyabiyyu.com/"
+    },
+    {
+      "id": "2",
+      "title": "FreeCodeCamp forum",
+      "desc": "Freecodecamp forum",
+      "link": "https://survey-freecodecamp.zakyabiyyu.com/"
+    },
+    {
+      "id": "3",
+      "title": "Bento Grid",
+      "desc": "Content using bento grid",
+      "link": "https://bento-grid-1vq.pages.dev/"
+    },
+    {
+      "id": "4",
+      "title": "Zettabyte frontend",
+      "desc": "Latihan frontend zettabyte",
+      "link": "https://zettabytefrontend.pages.dev/"
+    }
+  ]
+}

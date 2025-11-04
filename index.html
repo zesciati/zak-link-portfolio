@@ -46,16 +46,66 @@
     </section>
 
     <section>
-      <h2 class="text-center text-(length:--step-3) text-(--clr-hijau-1) font-medium">HTML, CSS</h2>
+      <section>
+        <h2 class="text-center text-(length:--step-3) text-(--clr-hijau-1) font-medium">HTML, CSS</h2>
+      </section>
+
+      <section class="bg-(--clr-hijau-2) m-(--space-xs) p-(--space-xs) rounded-lg ">
+        <h3 class="text-(length:--step-3)">Web Google UI</h3>
+        <p class="text-(length:--step-1) my-(--space-2xs) ">Layout browser google</p>
+        <a href="https://webgoogleui.zakyabiyyu.com/" target="_blank"
+          class="text-(--clr-hijau-4) border-(--clr-hijau-3) border-[1.7px] p-(--space-3xs) text-(length:--step-0) rounded-sm hover:text-neutral-100 hover:bg-(--clr-hijau-3) font-medium">See
+          project</a>
+      </section>
+
+
+      <section class="bg-(--clr-hijau-2) m-(--space-xs) p-(--space-xs) rounded-lg ">
+        <h3 class="text-(length:--step-3)">FreeCodeCamp forum</h3>
+        <p class="text-(length:--step-1) my-(--space-2xs) ">FreeCodeCamp forum</p>
+        <a href="https://survey-freecodecamp.zakyabiyyu.com/" target="_blank"
+          class="text-(--clr-hijau-4) border-(--clr-hijau-3) border-[1.7px] p-(--space-3xs) text-(length:--step-0) rounded-sm hover:text-neutral-100 hover:bg-(--clr-hijau-3) font-medium">See
+          project</a>
+      </section>
+
+      <section class="bg-(--clr-hijau-2) m-(--space-xs) p-(--space-xs) rounded-lg ">
+        <h3 class="text-(length:--step-3)">Zettabyte frontend</h3>
+        <p class="text-(length:--step-1) my-(--space-2xs) ">Latihan frontend zettabyte</p>
+        <a href="https://zettabytefrontend.pages.dev/" target="_blank"
+          class="text-(--clr-hijau-4) border-(--clr-hijau-3) border-[1.7px] p-(--space-3xs) text-(length:--step-0) rounded-sm hover:text-neutral-100 hover:bg-(--clr-hijau-3) font-medium">See
+          project</a>
+      </section>
     </section>
 
-    <section class="bg-(--clr-hijau-2) m-(--space-xs) p-(--space-xs) rounded-lg ">
-      <h3 class="text-(length:--step-3)">Web Google UI</h3>
-      <p class="text-(length:--step-1) my-(--space-2xs) ">Layout browser google</p>
-      <a href="https://webgoogleui.zakyabiyyu.com/" target="_blank" class="text-(--clr-hijau-4) border-(--clr-hijau-3) border-[1.7px] p-(--space-3xs) text-(length:--step-0) rounded-sm hover:text-neutral-100 hover:bg-(--clr-hijau-3) font-medium">See project</a>
+     <section class="bg-(--clr-hijau-2) m-(--space-xs) p-(--space-xs) rounded-lg ">
+        <h3 class="text-(length:--step-3)">Bento Grid</h3>
+        <p class="text-(length:--step-1) my-(--space-2xs) ">Content using bento grid</p>
+        <a href="https://bento-grid-1vq.pages.dev/" target="_blank"
+          class="text-(--clr-hijau-4) border-(--clr-hijau-3) border-[1.7px] p-(--space-3xs) text-(length:--step-0) rounded-sm hover:text-neutral-100 hover:bg-(--clr-hijau-3) font-medium">See
+          project</a>
+      </section>
     </section>
 
   </main>
+
+  <script>
+    async function fetchData() {
+      const response = await fetch('./data.json');
+      const data = await response.json();
+
+      // console.log(data[0].title);
+      console.log(data.HTML_CSS[0].title);
+
+    }
+
+
+    fetchData();
+  </script>
 </body>
 
 </html>
+
+
+<!-- 
+  - menghubungkan javascript dengan tag html 
+  - konten tertentu untuk tag html tertentu
+-->
