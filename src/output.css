@@ -179,6 +179,24 @@
   }
 }
 @layer utilities {
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
   .m-\(--space-xs\) {
     margin: var(--space-xs);
   }
@@ -210,21 +228,9 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-\[1\.5px\] {
-    border-style: var(--tw-border-style);
-    border-width: 1.5px;
-  }
   .border-\[1\.7px\] {
     border-style: var(--tw-border-style);
     border-width: 1.7px;
-  }
-  .border-\[2\.5px\] {
-    border-style: var(--tw-border-style);
-    border-width: 2.5px;
-  }
-  .border-\[3\.5px\] {
-    border-style: var(--tw-border-style);
-    border-width: 3.5px;
   }
   .border-\(--clr-hijau-3\) {
     border-color: var(--clr-hijau-3);
@@ -276,171 +282,10 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
-  .hover\:border-\[\#0046FF\] {
-    &:hover {
-      @media (hover: hover) {
-        border-color: #0046FF;
-      }
-    }
-  }
-  .hover\:border-\[\#27391C\] {
-    &:hover {
-      @media (hover: hover) {
-        border-color: #27391C;
-      }
-    }
-  }
   .hover\:bg-\(--clr-hijau-3\) {
     &:hover {
       @media (hover: hover) {
         background-color: var(--clr-hijau-3);
-      }
-    }
-  }
-  .hover\:bg-\(--clr-hijau-4\) {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--clr-hijau-4);
-      }
-    }
-  }
-  .hover\:text-\(--clr-biru\) {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--clr-biru);
-      }
-    }
-  }
-  .hover\:text-\[\#2F5249\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #2F5249;
-      }
-    }
-  }
-  .hover\:text-\[\#3D8D7A\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #3D8D7A;
-      }
-    }
-  }
-  .hover\:text-\[\#4B352A\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #4B352A;
-      }
-    }
-  }
-  .hover\:text-\[\#5A827E\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #5A827E;
-      }
-    }
-  }
-  .hover\:text-\[\#5E936C\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #5E936C;
-      }
-    }
-  }
-  .hover\:text-\[\#6A9C89\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #6A9C89;
-      }
-    }
-  }
-  .hover\:text-\[\#9BCF53\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #9BCF53;
-      }
-    }
-  }
-  .hover\:text-\[\#41B06E\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #41B06E;
-      }
-    }
-  }
-  .hover\:text-\[\#0046FF\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #0046FF;
-      }
-    }
-  }
-  .hover\:text-\[\#81A263\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #81A263;
-      }
-    }
-  }
-  .hover\:text-\[\#89AC46\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #89AC46;
-      }
-    }
-  }
-  .hover\:text-\[\#97B067\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #97B067;
-      }
-    }
-  }
-  .hover\:text-\[\#27391C\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #27391C;
-      }
-    }
-  }
-  .hover\:text-\[\#31511E\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #31511E;
-      }
-    }
-  }
-  .hover\:text-\[\#347433\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #347433;
-      }
-    }
-  }
-  .hover\:text-\[\#436850\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #436850;
-      }
-    }
-  }
-  .hover\:text-\[\#A8CD89\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #A8CD89;
-      }
-    }
-  }
-  .hover\:text-\[\#ADBC9F\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #ADBC9F;
-      }
-    }
-  }
-  .hover\:text-\[\#FFCF81\] {
-    &:hover {
-      @media (hover: hover) {
-        color: #FFCF81;
       }
     }
   }
