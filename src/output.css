@@ -29,7 +29,8 @@
     --clr-hijau-2: oklch(0.8123 0.0988 127.32);
     --clr-hijau-3: oklch(0.4745 0.0745 160.67);
     --clr-hijau-4: oklch(0.5578 0.1688 142.89);
-    --clr-biru: oklch(0.5782 0.2282 260.03);
+    --clr-hijau-5: oklch(0.3912 0.0713 142.88);
+    --clr-hijau-6: oklch(0.3549 0.0429 164.67);
   }
 }
 @layer base {
@@ -205,9 +206,6 @@
   .my-\(--space-2xs\) {
     margin-block: var(--space-2xs);
   }
-  .my-\(--space-l\) {
-    margin-block: var(--space-l);
-  }
   .my-\(--space-m\) {
     margin-block: var(--space-m);
   }
@@ -301,6 +299,12 @@
   .text-\(--clr-hijau-4\) {
     color: var(--clr-hijau-4);
   }
+  .text-\(--clr-hijau-5\) {
+    color: var(--clr-hijau-5);
+  }
+  .text-\(--clr-hijau-6\) {
+    color: var(--clr-hijau-6);
+  }
   .underline {
     text-decoration-line: underline;
   }
@@ -327,49 +331,9 @@
       display: grid;
     }
   }
-  .md\:h-\[50px\] {
-    @media (width >= 48rem) {
-      height: 50px;
-    }
-  }
-  .md\:max-h-\[50\%\] {
-    @media (width >= 48rem) {
-      max-height: 50%;
-    }
-  }
-  .md\:max-h-\[50px\] {
-    @media (width >= 48rem) {
-      max-height: 50px;
-    }
-  }
-  .md\:min-h-\[50\%\] {
-    @media (width >= 48rem) {
-      min-height: 50%;
-    }
-  }
-  .md\:min-h-auto {
-    @media (width >= 48rem) {
-      min-height: auto;
-    }
-  }
-  .md\:min-h-full {
-    @media (width >= 48rem) {
-      min-height: 100%;
-    }
-  }
-  .md\:min-h-screen {
-    @media (width >= 48rem) {
-      min-height: 100vh;
-    }
-  }
   .md\:grid-cols-\[repeat\(auto-fit\,minmax\(280px\,1fr\)\)\] {
     @media (width >= 48rem) {
       grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-    }
-  }
-  .md\:place-self-end {
-    @media (width >= 48rem) {
-      place-self: end;
     }
   }
   .md\:text-\(length\:--step-0\) {
@@ -380,11 +344,6 @@
   .md\:text-\(length\:--step-2\) {
     @media (width >= 48rem) {
       font-size: var(--step-2);
-    }
-  }
-  .lg\:text-\(length\:--step-0\) {
-    @media (width >= 64rem) {
-      font-size: var(--step-0);
     }
   }
   .lg\:text-\(length\:--step-1\) {

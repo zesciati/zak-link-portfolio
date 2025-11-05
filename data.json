@@ -1,35 +1,62 @@
-{
-  "HTML_CSS": [
+[
     {
-      "id": "1",
       "title": "Web Google UI",
       "desc": "Layout browser google",
       "link": "https://webgoogleui.zakyabiyyu.com/"
     },
     {
-      "id": "2",
       "title": "FreeCodeCamp forum",
       "desc": "Freecodecamp forum",
       "link": "https://survey-freecodecamp.zakyabiyyu.com/"
     },
     {
-      "id": "3",
       "title": "Bento Grid",
       "desc": "Content using bento grid",
       "link": "https://bento-grid-1vq.pages.dev/"
     },
     {
-      "id": "4",
       "title": "Zettabyte frontend",
       "desc": "Latihan frontend zettabyte",
       "link": "https://zettabytefrontend.pages.dev/"
     },
     {
-      "id": "5",
       "title": "Clamping",
       "desc": "Learning clamp",
       "link": "https://clamp.zakyabiyyu.com/"
+    },
+    {
+      "title": "Responsive interacting rating",
+      "desc": "Rating with star",
+      "link": "https://interactive-rating-component-1lk.pages.dev/"
+    }, 
+    {
+      "title": "Contact form",
+      "desc": "Contact form",
+      "link": "https://contact-form-js.pages.dev/"
+    }, 
+    {
+      "title": "3-column-preview-card-component",
+      "desc": "3-column-preview-card-component",
+      "link": "https://3-column-preview-card-component-dx7.pages.dev/"
+    }, 
+    {
+      "title": "accessible-form-ui",
+      "desc": "accessible-form-ui",
+      "link": "https://accessible-form-ui.pages.dev/"
+    }, 
+    {
+      "title": "Intro component with sign-up form",
+      "desc": "Intro component with sign-up form",
+      "link": "https://intro-component-with-sign-up-form-7h1.pages.dev/"
+    },
+    {
+      "title": "landing-page-TOP",
+      "desc": "landing-page-TOP",
+      "link": "https://landing-page-top.pages.dev/"
+    },
+    {
+      "title": "clipboard-landing-page-master",
+      "desc": "clipboard-landing-page-master",
+      "link": "https://clipboard-landing-page-master-8dw.pages.dev/"
     }
-    
   ]
-}

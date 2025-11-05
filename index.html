@@ -18,25 +18,23 @@
 
     <section >
       
-      <div>
+      <!-- <div>
         <h2 class="text-center text-(length:--step-3) text-(--clr-hijau-1) font-medium">HTML, CSS</h2>
-      </div>
-
+      </div> -->
       <article class="md:grid md:grid-cols-[repeat(auto-fit,minmax(280px,1fr))] mb-(--space-l)" id="project-container">
         <!-- NOTE jangan dihapus karena sebagai acuan kode di script -->
         <!-- <div class="bg-(--clr-hijau-2) m-(--space-xs) p-(--space-xs) rounded-lg flex flex-col justify-between">
-          <h3 class="text-(length:--step-3) md:text-(length:--step-2)">Zettabyte frontend</h3>
-          <p class="text-(length:--step-1)  md:text-(length:--step-0) mt-(--space-2xs)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, adipisci.</p>
+          <h3 class="text-(length:--step-3) md:text-(length:--step-2) text-(--clr-hijau-6) lg:text-(length:--step-1)">Zettabyte frontend</h3>
+          <p class="text-(length:--step-1)  md:text-(length:--step-0) my-(--space-2xs) text-(--clr-hijau-5)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, adipisci.</p>
           <a href="https://bento-grid-1vq.pages.dev/" target="_blank"
             class="text-(--clr-hijau-4) border-(--clr-hijau-3) border-[1.7px] p-(--space-3xs) text-(length:--step-0) rounded-sm hover:text-neutral-100 hover:bg-(--clr-hijau-3) font-medium self-start mt-auto">See
             project</a>
-        </div> -->
+        </div>  -->
+
+        <!-- NOTE end jangan dihapus karena sebagai acuan kode di script -->
       </article>
 
 
-      <!-- <div>
-        <h2 class="text-center text-(length:--step-3) text-(--clr-hijau-1) font-medium">HTML, CSS, JS</h2>
-      </div> -->
 
     </section>
 
@@ -52,18 +50,19 @@
       const data = await response.json();
       const container = document.getElementById('project-container');
 
-      data.HTML_CSS.forEach(project => {
+      data.forEach(project => {
         const div = document.createElement('div');
         div.className = "bg-(--clr-hijau-2) m-(--space-xs) p-(--space-xs) rounded-lg flex flex-col justify-between";
 
-        div.innerHTML = ` <h3 class="text-(length:--step-3) md:text-(length:--step-2)">${project.title}</h3>
-        <p class="text-(length:--step-1) my-(--space-2xs) md:text-(length:--step-0) mt-(--space-2xs)">${project.desc}</p>
+        div.innerHTML = ` <h3 class="text-(length:--step-3) md:text-(length:--step-2) text-(--clr-hijau-6) lg:text-(length:--step-1)">${project.title}</h3>
+        <p class="text-(length:--step-1) md:text-(length:--step-0) my-(--space-2xs) text-(--clr-hijau-5)">${project.desc}</p>
         <a href="${project.link}" target="_blank"
           class="text-(--clr-hijau-4) border-(--clr-hijau-3) border-[1.7px] p-(--space-3xs) text-(length:--step-0) rounded-sm hover:text-neutral-100 hover:bg-(--clr-hijau-3) font-medium self-start mt-auto">See
           project</a>`;
 
         container.appendChild(div);
       });
+
 
     }
 
