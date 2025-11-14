@@ -1,9 +1,5 @@
 [
-    {
-      "title": "Web Google UI",
-      "desc": "Layout browser google",
-      "link": "https://webgoogleui.zakyabiyyu.com/"
-    },
+    
     {
       "title": "FreeCodeCamp forum",
       "desc": "Freecodecamp forum",
@@ -18,11 +14,6 @@
       "title": "Zettabyte frontend",
       "desc": "Latihan frontend zettabyte",
       "link": "https://zettabytefrontend.pages.dev/"
-    },
-    {
-      "title": "Clamping",
-      "desc": "Learning clamp",
-      "link": "https://clamp.zakyabiyyu.com/"
     },
     {
       "title": "Responsive interacting rating",
