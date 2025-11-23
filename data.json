@@ -59,5 +59,10 @@
       "title": "css-variables-wesbos",
       "desc": "css-variables-wesbos",
       "link": "https://css-variables-wesbos.pages.dev/"
+    },
+    {
+      "title": "Advice-generator-app-main",
+      "desc": "A simple web app that generates random advice using a public API. Click the button to instantly receive a new piece of advice.",
+      "link": "https://advice-generator-app-main-6co.pages.dev/"
     }
   ]
