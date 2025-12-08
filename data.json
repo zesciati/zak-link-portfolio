@@ -64,5 +64,10 @@
       "title": "Advice-generator-app-main",
       "desc": "A simple web app that generates random advice using a public API. Click the button to instantly receive a new piece of advice.",
       "link": "https://advice-generator-app-main-6co.pages.dev/"
+    },
+    {
+      "title": "recipe-page-main-astro",
+      "desc": "Simple omelette Recipe with preparation time, ingredients, instructions, and nutrition,",
+      "link": "https://recipe-page-main-astro.pages.dev/"
     }
   ]
