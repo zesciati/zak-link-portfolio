@@ -69,5 +69,10 @@
       "title": "recipe-page-main-astro",
       "desc": "Simple omelette Recipe with preparation time, ingredients, instructions, and nutrition,",
       "link": "https://recipe-page-main-astro.pages.dev/"
+    },
+    {
+      "title": "display-time-astro",
+      "desc": "Showing current time with updated second",
+      "link": "https://display-time-astro.pages.dev/"
     }
   ]
