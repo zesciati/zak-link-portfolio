@@ -72,7 +72,12 @@
     },
     {
       "title": "display-time-astro",
-      "desc": "Showing current time with updated second",
+      "desc": "Showing current time with updated second [html, css, js]",
       "link": "https://display-time-astro.pages.dev/"
+    },
+    {
+      "title": "ramadhan-promo",
+      "desc": "ramadhan card [bootstrap, html]",
+      "link": "ramadhan-promo.pages.dev"
     }
   ]
