@@ -77,7 +77,12 @@
     },
     {
       "title": "ramadhan-promo",
-      "desc": "ramadhan card [bootstrap, html]",
+      "desc": "Ramadhan card [bootstrap, html]",
       "link": "https://ramadhan-promo.pages.dev"
+    },
+    {
+      "title": "Result Summary Component",
+      "desc": "Results summary component [tailwind, astro]",
+      "link": "https://result-summary-component-astro.pages.dev/"
     }
   ]
