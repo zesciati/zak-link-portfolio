@@ -84,5 +84,10 @@
       "title": "Result Summary Component",
       "desc": "Results summary component [tailwind, astro]",
       "link": "https://result-summary-component-astro.pages.dev/"
+    },
+    {
+      "title": "oh-studio",
+      "desc": " full of gallery photo [scss, astro]",
+      "link": "https://oh-studio-b5b.pages.dev/"
     }
   ]
